@@ -1,0 +1,465 @@
+openapi: 3.0.3
+info:
+  title: Library Management API
+  description: API documentation for the Library Management System
+  version: 1.0.0
+  contact:
+    name: Developer
+    email: developer@example.com
+servers:
+  - url: http://localhost:3000
+    description: Development Server
+paths:
+  /register:
+    post:
+      summary: Register a new user
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+                - username
+                - email
+                - password
+      responses:
+        201:
+          description: User successfully registered
+        400:
+          description: Bad request
+  /verify:
+    post:
+      summary: Verify a user
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                code:
+                  type: string
+              required:
+                - email
+                - code
+      responses:
+        200:
+          description: User verified successfully
+        401:
+          description: Unauthorized
+  /login:
+    post:
+      summary: Login a user
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+              required:
+                - email
+                - password
+      responses:
+        200:
+          description: User logged in successfully
+        401:
+          description: Unauthorized 
+  /logout:
+    post:
+      summary: Logout a user
+      tags:
+        - Authentication
+      responses:
+        200:
+          description: User logged out successfully
+        401:
+          description: Unauthorized             
+  /get_books:
+    get:
+      summary: Get all books
+      tags:
+        - Books
+      responses:
+        200:
+          description: List of all books
+  /add_book:
+    post:
+      summary: Add a new book
+      tags:
+        - Books
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                pages:
+                  type: integer
+                year:
+                  type: integer
+                price:
+                  type: number
+                country:
+                  type: string
+                author:
+                  type: string
+                description:
+                  type: string
+              required:
+                - title
+                - pages
+                - year
+                - price
+                - country
+                - author
+                - description
+      responses:
+        201:
+          description: Book added successfully
+        400:
+          description: Bad request
+  /get_one_book/{id}:
+    get:
+      summary: Get book by ID
+      tags:
+        - Books
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the book to retrieve
+      responses:
+        200:
+          description: Book details
+        404:
+          description: Book not found
+  /search_books:
+    get:
+      summary: Search for books by title
+      tags:
+        - Books
+      parameters:
+        - in: query
+          name: title
+          required: true
+          schema:
+            type: string
+          description: The title of the book to search for (supports partial matching, case-insensitive)
+      responses:
+        200:
+          description: A list of books matching the title search criteria
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Book'
+        404:
+          description: No books found matching the title search criteria
+        400:
+          description: Bad request (e.g., missing or invalid query parameters)
+  /update_book/{id}:
+    put:
+      summary: Update book by ID
+      tags:
+        - Books
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the book to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                pages:
+                  type: integer
+                year:
+                  type: integer
+                price:
+                  type: number
+                country:
+                  type: string
+                author:
+                  type: string
+                description:
+                  type: string
+      responses:
+        200:
+          description: Book updated successfully
+        400:
+          description: Bad request
+        404:
+          description: Book not found
+  /delete_book/{id}:
+    delete:
+      summary: Delete book by ID
+      tags:
+        - Books
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the book to delete
+      responses:
+        200:
+          description: Book deleted successfully
+        404:
+          description: Book not found
+  /get_authors:
+    get:
+      summary: Get all authors
+      tags:
+        - Authors
+      responses:
+        200:
+          description: List of all authors
+  /add_author:
+    post:
+      summary: Add a new author
+      tags:
+        - Authors
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                age:
+                  type: integer
+              required:
+                - name
+                - age
+      responses:
+        201:
+          description: Author added successfully
+        400:
+          description: Bad request
+  /search_authors:
+    get:
+      summary: Search authors by name
+      tags:
+        - Authors
+      parameters:
+        - in: query
+          name: author
+          required: true
+          schema:
+            type: string
+          description: The name of the author to search for (supports partial matching, case-insensitive)
+      responses:
+        '200':
+          description: A group of authors matching the name
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Author'
+        '404':
+          description: No author found by this name
+        '400':
+          description: Bad request (e.g., missing or invalid query parameters)     
+  /get_one_author/{id}:
+    get:
+      summary: Get author by ID
+      tags:
+        - Authors
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the author to retrieve
+      responses:
+        200:
+          description: Author details
+        404:
+          description: Author not found
+  /update_author/{id}:
+    put:
+      summary: Update author by ID
+      tags:
+        - Authors
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the author to update
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                age:
+                  type: integer
+      responses:
+        200:
+          description: Author updated successfully
+        400:
+          description: Bad request
+        404:
+          description: Author not found
+  /delete_author/{id}:
+    delete:
+      summary: Delete author by ID
+      tags:
+        - Authors
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: ID of the author to delete
+      responses:
+        200:
+          description: Author deleted successfully
+        404:
+          description: Author not found
+  /get_comments:
+    get:
+      summary: Get all comments
+      tags:
+        - Comments
+      responses:
+        200:
+          description: List of all comments
+  /add_comment:
+    post:
+      summary: Add a new comment
+      tags:
+        - Comments
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                member_info:
+                  type: string
+                book_info:
+                  type: string
+                comment:
+                  type: string
+              required:
+                - member_info
+                - book_info
+                - comment
+      responses:
+        201:
+          description: Comment added successfully
+        400:
+          description: Bad request
+  /get_members:
+    get:
+      summary: Get all members
+      tags:
+        - Members
+      responses:
+        200:
+          description: List of all members
+  /add_member:
+    post:
+      summary: Add a new member
+      tags:
+        - Members
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                memberName:
+                  type: string
+                age:
+                  type: integer
+              required:
+                - memberName
+                - age
+      responses:
+        201:
+          description: Member added successfully
+        400:
+          description: Bad request
+components:
+  schemas:
+    Book:
+      type: object
+      properties:
+        title:
+          type: string
+        author:
+          type: string
+        year:
+          type: integer
+        price:
+          type: number
+        country:
+          type: string
+        description:
+          type: string
+      required:
+        - title
+        - author
+        - year
+        - price
+        - country
+        - description
+    Author:
+      type: object
+      properties:
+        name:
+          type: string
+        age:
+          type: integer
+      required:
+        - name
+        - age

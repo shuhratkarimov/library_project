@@ -1,0 +1,2959 @@
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-26 09:15:16'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-26 09:15:16'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "471ms"\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 09:15:16'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-26 09:17:25'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-26 09:17:27'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "1678ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "shuhrat",\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "73",\n' +
+    '        "etag": "W/\\"49-NYDQb22FzfYnJUeZZosdJkTnc2E\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 09:17:27'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 301,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "text/html; charset=UTF-8",\n' +
+    '        "content-length": 158,\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "location": "/api-docs/"\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:22:10'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": "3106",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:22:10'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "0ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "17273",\n' +
+    '        "etag": "W/\\"4379-/a9z0GDsjaJqDRbWgFwFBZ9gNHk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:22:10'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "12ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\"",\n' +
+    '        "content-type": "text/css; charset=UTF-8",\n' +
+    '        "content-length": 152072\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:22:10'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "13ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\"",\n' +
+    '        "content-type": "application/javascript; charset=UTF-8",\n' +
+    '        "content-length": 230007\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:22:10'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "19ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\"",\n' +
+    '        "content-type": "application/javascript; charset=UTF-8",\n' +
+    '        "content-length": 1426050\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:22:10'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "15ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\"",\n' +
+    '        "content-type": "image/png",\n' +
+    '        "content-length": 628\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:22:11'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/auth/register",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "11ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "string",\n' +
+    '        "password": "string"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 153\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:24:05'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/auth/register",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "string",\n' +
+    '        "password": "string"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 153\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:24:57'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/authors",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 146\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:25:29'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"4379-/a9z0GDsjaJqDRbWgFwFBZ9gNHk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "0ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:46'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:48'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:48'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "0ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"4379-/a9z0GDsjaJqDRbWgFwFBZ9gNHk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:48'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:48'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:48'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:48'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "0ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"4379-/a9z0GDsjaJqDRbWgFwFBZ9gNHk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:27:50'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:28:59'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:28:59'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:28:59'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:28:59'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "17300",\n' +
+    '        "etag": "W/\\"4394-rULxyWB0ke2cu5MszetD9RnyPlY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:28:59'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:29:00'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "24ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "string",\n' +
+    '        "password": "string"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "55",\n' +
+    '        "etag": "W/\\"37-0uoBb0hOc+mmvYBnm0bQWSvVNps\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:29:19'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "string",\n' +
+    '        "password": "string"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "68",\n' +
+    '        "etag": "W/\\"44-VM0E9lxsIb4cdDfga0MX4kaz7JU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:48:58'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "string",\n' +
+    '        "email": "string"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "116",\n' +
+    '        "etag": "W/\\"74-pgOaaGvpKwo6OZqpPTz2ffliiEQ\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:49:08'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "string",\n' +
+    '        "email": "string@gmail.com"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "56",\n' +
+    '        "etag": "W/\\"38-86ipto5bzSHBXkR/RX1wfTiC9JE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:49:21'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "121",\n' +
+    '        "etag": "W/\\"79-unsAQbvk6EmOJV+4gPHCEGvVUFU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:49:40'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "114",\n' +
+    '        "etag": "W/\\"72-YOCZZK13IaucJDdVNkKfS3z5SJ4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:49:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_books",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "709ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1420",\n' +
+    '        "etag": "W/\\"58c-vDWitSjA1dlO+j0aVWAAxJNxxrk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:50:57'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_members",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "376ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1160",\n' +
+    '        "etag": "W/\\"488-CKFCyWcPDwCsy7hJJ8sWObZ161c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:51:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "10ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:54:43'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:54:43'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:54:43'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:54:43'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "20942",\n' +
+    '        "etag": "W/\\"51ce-gHmKsQoh1ZZKxxNB1UchfBGZHHE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:54:43'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:54:43'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "39ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "string",\n' +
+    '        "email": "string",\n' +
+    '        "password": "string"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "116",\n' +
+    '        "etag": "W/\\"74-pgOaaGvpKwo6OZqpPTz2ffliiEQ\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:54:53'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-26 15:55:16'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-26 15:55:16'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/register",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "401ms",\n' +
+    '    "requestBody": {\n' +
+    '        "username": "shuhrat",\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "73",\n' +
+    '        "etag": "W/\\"49-NYDQb22FzfYnJUeZZosdJkTnc2E\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:55:16'
+}
+{
+  message: 'shuhrat email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-26 15:55:53'
+}
+{
+  message: "shuhrat egasi ro'yxatdan o'tmasdan login qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-26 15:55:53'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "331ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhrat",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "77",\n' +
+    '        "etag": "W/\\"4d-jljERrGd3CMHnGYqur2HyQx9sJw\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:55:53'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-26 15:56:14'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-26 15:56:14'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "755ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTczNzg4ODk3NCwiZXhwIjoxNzM3ODg5ODc0fQ.J6e7KDzXffRknz4_n4KlvOmUvigCyJx5vQmpv1d4zSU; Max-Age=900; Path=/; Expires=Sun, 26 Jan 2025 11:11:14 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTczNzg4ODk3NCwiZXhwIjoxNzM4NDkzNzc0fQ.0pdqg3dvn1YvrsQU07TjXu5C41CuLeS35Va5znK83bg; Max-Age=604800; Path=/; Expires=Sun, 02 Feb 2025 10:56:14 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:56:14'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:59:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:59:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"51ce-gHmKsQoh1ZZKxxNB1UchfBGZHHE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:59:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:59:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:59:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 15:59:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"51ce-gHmKsQoh1ZZKxxNB1UchfBGZHHE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "0ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"51ce-gHmKsQoh1ZZKxxNB1UchfBGZHHE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:45'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:46'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"51ce-gHmKsQoh1ZZKxxNB1UchfBGZHHE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:23:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:24:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:24:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:24:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:24:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"51ce-gHmKsQoh1ZZKxxNB1UchfBGZHHE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:24:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:24:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "10ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19403",\n' +
+    '        "etag": "W/\\"4bcb-VNpn1UjnX/jJfwpwFqf3e4zitEI\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "12ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:36'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:36'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:36'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19331",\n' +
+    '        "etag": "W/\\"4b83-zEmhN8B78jZZAwn2ISON4jTPgAY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:36'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:36'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:36'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_comments",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "880ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "532",\n' +
+    '        "etag": "W/\\"214-Hem3eM2ehvmuZcoMheMcB/idBDM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:25:52'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"4b83-zEmhN8B78jZZAwn2ISON4jTPgAY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "10ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19333",\n' +
+    '        "etag": "W/\\"4b85-VVbROa83c20IgXwfQkEwgCpJoM0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "12ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19365",\n' +
+    '        "etag": "W/\\"4ba5-LRxjmtnkHkEvqusuxAuPPsFQA4A\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:27:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_comments",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "773ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "532",\n' +
+    '        "etag": "W/\\"214-Hem3eM2ehvmuZcoMheMcB/idBDM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:29:24'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "21ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19480",\n' +
+    '        "etag": "W/\\"4c18-W4Z0bUu5iLqnWzaPq7vkySO8jVc\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:01'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "13ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19415",\n' +
+    '        "etag": "W/\\"4bd7-6v8qCF9b89N4dtBdE4Pb+LFQAHE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "0ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:30:29'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "13ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:31:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:31:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:31:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:31:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19511",\n' +
+    '        "etag": "W/\\"4c37-RwJSQhWYFpPfMO5aYBc0TWDblck\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:31:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:31:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "16ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:35:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:35:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:35:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:35:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19505",\n' +
+    '        "etag": "W/\\"4c31-sCWp3HBsk84kyrc67RDbZt1noOg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:35:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:35:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "12ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:36:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:36:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:36:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:36:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19608",\n' +
+    '        "etag": "W/\\"4c98-3wvOXcmycGuppwpRNQqPWBuafqw\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:36:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:36:09'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_members",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "12ms",\n' +
+    '    "requestBody": {\n' +
+    '        "memberName": "shuhrat",\n' +
+    '        "age": 26\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 151\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:36:27'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "10ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:37:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:37:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "7ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:37:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "9ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:37:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "19608",\n' +
+    '        "etag": "W/\\"4c98-gMhWpRwuayQwyZNnCmsTPhI2Sxc\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:37:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:37:09'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_member",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "856ms",\n' +
+    '    "requestBody": {\n' +
+    '        "memberName": "shuhrat",\n' +
+    '        "age": 26\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "55",\n' +
+    '        "etag": "W/\\"37-UtC5tf/cIjWj/1R7vsPEcXBS8cA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 16:37:27'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/docs/swagger.yaml",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "8ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 156\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 17:36:44'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/docs/swagger.yaml",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 156\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 17:36:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/docs/swagger.yaml",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 156\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 17:37:43'
+}

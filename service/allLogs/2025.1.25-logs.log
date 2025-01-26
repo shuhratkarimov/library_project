@@ -1,0 +1,1715 @@
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:00:40'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:00:40'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:00:40'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:00:40'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:04:23'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:04:23'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:04:23'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:04:23'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:07:50'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:07:50'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:07:50'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:07:50'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:09:30'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:09:30'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:09:30'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:09:30'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:09:50'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:09:50'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:09:50'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:09:50'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:11:22'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:11:22'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:11:22'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:11:22'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:11:47'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:11:47'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:11:47'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:11:47'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:13:42'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:13:42'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:13:42'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:13:42'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:14:04'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:14:04'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:14:04'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:14:04'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:14:17'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:14:17'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:14:17'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:14:17'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:14:35'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:14:35'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:14:35'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:14:35'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:14:57'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:14:57'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:14:57'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:14:57'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:15:14'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:15:14'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:15:14'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:15:14'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:15:38'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:15:38'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:15:38'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:15:38'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:16:29'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:16:29'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:16:29'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:16:29'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:17:05'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:17:05'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:17:05'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:17:05'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:17:14'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:17:14'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:17:14'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:17:14'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:18:58'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:18:58'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:18:58'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:18:58'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:20:56'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:20:56'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:20:56'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:20:56'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:22:01'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:22:01'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:22:01'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:22:01'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:22:20'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:22:20'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:22:20'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:22:20'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:22:27'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:22:27'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:22:27'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:22:27'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:23:31'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:23:31'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:23:31'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:23:31'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:25:38'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:25:38'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:25:38'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:25:38'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:29:51'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:29:51'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:29:51'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:29:51'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:30:19'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:30:19'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:30:19'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:30:19'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:34:20'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:34:20'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:34:20'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:34:20'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:34:30'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:34:30'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:34:30'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:34:30'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:35:22'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:35:22'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:35:22'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:35:22'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:35:58'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:35:58'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:35:58'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:35:58'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:37:12'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:37:12'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:37:12'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:37:12'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:37:53'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:37:54'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:37:54'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:37:54'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:37:56'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:37:56'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:37:56'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:37:56'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:06'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:06'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:06'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:06'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:17'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:17'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:17'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:17'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:22'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:22'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:22'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:22'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:33'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:33'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:33'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:33'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:36'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:36'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:36'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:36'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:40'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:40'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:40'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:40'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:43'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:43'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:43'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:43'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:38:50'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:38:50'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:38:50'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:38:50'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:39:45'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:39:45'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:39:45'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:39:45'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:39:57'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:39:57'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:39:57'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:39:57'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:41:01'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:41:01'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:41:01'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:41:01'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:42:28'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:42:28'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:42:28'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:42:28'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:42:45'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:42:45'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:42:45'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:42:45'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:44:18'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:44:18'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:44:18'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:44:18'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:44:30'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:44:30'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:44:30'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:44:30'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:44:35'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:44:35'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:44:35'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:44:35'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:44:48'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:44:48'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:44:48'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:44:48'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:44:53'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:44:53'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:44:53'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:44:53'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 17:45:31'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 17:45:31'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 17:45:31'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 17:45:31'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 20:47:22'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 20:47:22'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 20:47:22'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 20:47:22'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 20:50:16'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 20:50:16'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 20:50:16'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 20:50:16'
+}
+{
+  message: 'Tizimda xatolik yuz berdi!',
+  level: 'error',
+  timestamp: '2025-01-25 20:52:40'
+}
+{
+  message: 'Tizim xatolikdan ogohlantiradi!',
+  level: 'warn',
+  timestamp: '2025-01-25 20:52:40'
+}
+{
+  message: 'Logger debug',
+  level: 'debug',
+  timestamp: '2025-01-25 20:52:40'
+}
+{
+  message: 'Talaba login qilishga urindi',
+  level: 'info',
+  timestamp: '2025-01-25 20:52:40'
+}
+{
+  message: {
+    method: 'GET',
+    url: '/get_logs',
+    status: 500,
+    duration: '10018ms',
+    requestBody: {},
+    responseHeaders: [Object: null prototype] {
+      'x-powered-by': 'Express',
+      'access-control-allow-origin': '*',
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '102',
+      etag: 'W/"66-W6ovOpN3Cek31sfylZucZj6Y6RQ"'
+    }
+  },
+  level: 'info',
+  timestamp: '2025-01-25 21:04:41'
+}
+{
+  message: {
+    method: 'GET',
+    url: '/get_logs',
+    status: 500,
+    duration: '10013ms',
+    requestBody: {},
+    responseHeaders: [Object: null prototype] {
+      'x-powered-by': 'Express',
+      'access-control-allow-origin': '*',
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '102',
+      etag: 'W/"66-W6ovOpN3Cek31sfylZucZj6Y6RQ"'
+    }
+  },
+  level: 'info',
+  timestamp: '2025-01-25 21:05:45'
+}
+{
+  level: 'info',
+  message: Object [JSON] {},
+  timestamp: '2025-01-25 21:07:14'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:38:42'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:40:16'
+}
+{
+  message: 'shuhrat qayta register qilishga urindi!',
+  level: 'warn',
+  timestamp: '2025-01-25 21:40:17'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:42:04'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:42:37'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:42:38'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:42:42'
+}
+{
+  message: 'shuhratkarsimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:42:42'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:43:47'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:43:51'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:43:55'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:43:56'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:44:04'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:44:05'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:44:08'
+}
+{
+  message: 'shusshratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:44:08'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:46:46'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:46:46'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:47:25'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:47:26'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:47:41'
+}
+{
+  message: 'shuhratkadrimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:47:41'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:47:58'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:47:58'
+}
+{
+  message: 'shuhratfkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:55:20'
+}
+{
+  message: "shuhratfkarimov.dev@gmail.com egasi ro'yxatdan o'tmasdan login qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:55:20'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:56:07'
+}
+{
+  message: "shuhratkarimov.dev@gmail.com login qilishga urinishi davomida noto'g'ri parol kiritdi!",
+  level: 'info',
+  timestamp: '2025-01-25 21:56:08'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:56:39'
+}
+{
+  message: "shuhratkarimov.dev@gmail.com login qilishga urinishi davomida noto'g'ri parol kiritdi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:56:39'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:57:29'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:57:42'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:57:42'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:58:46'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:58:47'
+}
+{
+  message: "Ro'yxatdan o'tish bilan bog'liq server xatosi yuzaga keldi!",
+  level: 'error',
+  timestamp: '2025-01-25 21:58:48'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 21:59:46'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 21:59:47'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:00:14'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:00:15'
+}
+{
+  message: "Ro'yxatdan o'tish bilan bog'liq server xatosi yuzaga keldi!",
+  level: 'error',
+  timestamp: '2025-01-25 22:00:16'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:06:01'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:06:02'
+}
+{
+  message: "Ro'yxatdan o'tish bilan bog'liq server xatosi yuzaga keldi!",
+  level: 'error',
+  timestamp: '2025-01-25 22:06:04'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:07:11'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 22:07:11'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:07:29'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:07:29'
+}
+{
+  message: "Ro'yxatdan o'tish bilan bog'liq server xatosi yuzaga keldi!",
+  level: 'error',
+  timestamp: '2025-01-25 22:07:32'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:08:55'
+}
+{
+  message: 'shuhraftkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:08:56'
+}
+{
+  message: "Ro'yxatdan o'tish bilan bog'liq server xatosi yuzaga keldi!",
+  level: 'error',
+  timestamp: '2025-01-25 22:08:58'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:09:18'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 22:09:19'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:09:21'
+}
+{
+  message: 'shuhratkadrimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:09:21'
+}
+{
+  message: "Ro'yxatdan o'tish bilan bog'liq server xatosi yuzaga keldi!",
+  level: 'error',
+  timestamp: '2025-01-25 22:09:23'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:13:20'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 22:13:21'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:13:41'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:13:42'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com egasi emailini tasdiqlashga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:14:06'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com egasi emailini tasdiqlashga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:14:46'
+}
+{
+  message: "Emailni tasdiqlashdan o'tkazish bo'yicha server xatoligi yuz berdi!",
+  level: 'warn',
+  timestamp: '2025-01-25 22:14:50'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:16:39'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:16:39'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com egasi emailini tasdiqlashga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:16:58'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:18:10'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:18:10'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com egasi emailini tasdiqlashga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:18:26'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:20:05'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:20:05'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com egasi emailini tasdiqlashga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:20:21'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi register qilishga urindi!',
+  level: 'error',
+  timestamp: '2025-01-25 22:20:21'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:21:57'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email manziliga tasdiqlash kodi yuborildi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:21:57'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com egasi emailini tasdiqlashga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:22:12'
+}
+{
+  message: "shuhratkarimov.dev@gmail.com email egasi emailini tasdiqlashdan o'tkazdi!",
+  level: 'info',
+  timestamp: '2025-01-25 22:22:13'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:23:57'
+}
+{
+  message: 'undefined tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:23:58'
+}
+{ level: 'info', message: '', timestamp: '2025-01-25 22:24:02' }
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:25:49'
+}
+{
+  message: 'undefined tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:25:50'
+}
+{ level: 'info', message: '', timestamp: '2025-01-25 22:25:51' }
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:27:26'
+}
+{
+  message: 'undefined tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:27:26'
+}
+{
+  message: 'shuhrat tizimdan chiqdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:27:29'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:35:33'
+}
+{
+  message: 'undefined tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:35:33'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:36:03'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:36:04'
+}
+{
+  message: 'shuhrat register qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:36:25'
+}
+{
+  message: "shuhrat ro'yxatdan o'tganligiga qaramasdan register qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-01-25 22:36:25'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com egasi emailini tasdiqlashga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:36:31'
+}
+{
+  message: "Emailni tasdiqlashdan o'tkazish bo'yicha server xatoligi yuz berdi!",
+  level: 'warn',
+  timestamp: '2025-01-25 22:36:32'
+}
+{
+  message: 'shuhrat tizimdan chiqdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:36:55'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:39:26'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:39:27'
+}
+{
+  message: {
+    method: 'POST',
+    url: '/login',
+    status: 200,
+    duration: '777ms',
+    requestBody: { email: 'shuhratkarimov.dev@gmail.com', password: '1111' },
+    responseHeaders: [Object: null prototype] {
+      'x-powered-by': 'Express',
+      'access-control-allow-origin': '*',
+      'set-cookie': [
+        'accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTczNzgyNjc2NywiZXhwIjoxNzM3ODI3NjY3fQ.p1BANBa6BF19K6rCGOs0TJss7t3B9VMSkXVq5EwtPIU; Max-Age=900; Path=/; Expires=Sat, 25 Jan 2025 17:54:27 GMT; HttpOnly',
+        'refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTczNzgyNjc2NywiZXhwIjoxNzM4NDMxNTY3fQ.jPjTMpSWnExlF9czKIXKHCFMLdyKekTo5iqj35loIQ8; Max-Age=604800; Path=/; Expires=Sat, 01 Feb 2025 17:39:27 GMT; HttpOnly'
+      ],
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '61',
+      etag: 'W/"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk"'
+    }
+  },
+  level: 'info',
+  timestamp: '2025-01-25 22:39:27'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:42:36'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:42:36'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "864ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTczNzgyNjk1NiwiZXhwIjoxNzM3ODI3ODU2fQ.5tlWug08NDXdB58N6VRGKclNHcGkHRnfE1nxVf5Wxz8; Max-Age=900; Path=/; Expires=Sat, 25 Jan 2025 17:57:36 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTczNzgyNjk1NiwiZXhwIjoxNzM4NDMxNzU2fQ.1a4VL3I4_pC_Pg1udNs-05jdaapXvViYWVPWJK65lK0; Max-Age=604800; Path=/; Expires=Sat, 01 Feb 2025 17:42:36 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-25 22:42:36'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:43:57'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:43:58'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2183ms"\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-25 22:43:58'
+}
+{
+  message: 'shuhrat tizimdan chiqdi!',
+  level: 'info',
+  timestamp: '2025-01-25 22:44:38'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/logout",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "16ms"\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-25 22:44:38'
+}
