@@ -38,7 +38,11 @@ app.use((req, res, next) => {
   });
   next();
 });
-app.use(cors());
+app.use(cors({
+  origin: '*', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "uploads")));
 const swaggerUi = require("swagger-ui-express");
@@ -48,7 +52,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.get('/', (req, res) => {
   res.send('API ishlayapti!');
 });
-const serverUrl = process.env.SERVER_URL || 'http://localhost:3000';
+const serverUrl = `https://library-project-6agw.onrender.com` || 'http://localhost:3000';
 swaggerDocument.servers = [
   { url: serverUrl, description: 'Current Server' }
 ];
