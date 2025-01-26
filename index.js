@@ -48,6 +48,10 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.get('/', (req, res) => {
   res.send('API ishlayapti!');
 });
+const serverUrl = process.env.SERVER_URL || 'http://localhost:3000';
+swaggerDocument.servers = [
+  { url: serverUrl, description: 'Current Server' }
+];
 app.use(cookie_parser())
 app.use(booksRouter);
 app.use(authorsRouter);
