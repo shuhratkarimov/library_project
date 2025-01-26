@@ -261,13 +261,22 @@ paths:
             schema:
               type: object
               properties:
-                name:
+                full_name:
                   type: string
-                age:
-                  type: integer
+                dateOfBirth:
+                  type: Date
+                dateOfDeath:
+                  type: Date
+                country:
+                  type: string
+                bio:
+                  type: string    
               required:
-                - name
-                - age
+                - full_name
+                - dateOfBirth
+                - dateOfDeath
+                - country
+                - bio
       responses:
         201:
           description: Author added successfully
@@ -280,7 +289,7 @@ paths:
         - Authors
       parameters:
         - in: query
-          name: author
+          name: full_name
           required: true
           schema:
             type: string
@@ -334,10 +343,16 @@ paths:
             schema:
               type: object
               properties:
-                name:
+                full_name:
                   type: string
-                age:
+                dateOfBirth:
+                  type: Date
+                dateOfDeath:
+                  type: Date
+                country:
                   type: integer
+                bio:
+                  type: string                  
       responses:
         200:
           description: Author updated successfully
@@ -456,10 +471,18 @@ components:
     Author:
       type: object
       properties:
-        name:
+        full_name:
           type: string
-        age:
+        dateOfBirth:
+          type: Date
+        dateOfDeath:
+          type: Date
+        country:
           type: integer
+        bio:
+          type: string
       required:
-        - name
-        - age
+        - full_name
+        - dateOfBirth
+        - country
+        - bio

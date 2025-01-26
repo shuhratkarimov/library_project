@@ -49,9 +49,8 @@ const booksSchema = new Schema(
       ],
     },
     author: {
-      type: Schema.Types.ObjectId,
-      ref: "authors",
-      required: [true, "Muallif ID'si kiritilishi lozim"],
+      type: String,
+      required: [true, "Muallif to'liq ismi kiritilishi lozim"],
     },
     description: { type: String, required: true },
   },
