@@ -48,7 +48,10 @@ app.use(express.static(path.join(__dirname, "uploads")));
 const swaggerUi = require("swagger-ui-express");
 const YAML = require('yamljs');
 const swaggerDocument = YAML.load('./docs/swagger.yaml')
-app.use("/", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.get('/', (req, res) => {
+  res.send('API ishlayapti!');
+});
 const serverUrl = `https://library-project-6agw.onrender.com` || 'http://localhost:3000';
 swaggerDocument.servers = [
   { url: serverUrl, description: 'Current Server' }
