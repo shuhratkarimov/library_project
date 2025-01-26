@@ -289,7 +289,7 @@ paths:
         - Authors
       parameters:
         - in: query
-          name: full_name
+          name: name
           required: true
           schema:
             type: string
