@@ -29,7 +29,7 @@ async function uploadBookImage(req, res, next) {
       if (!req.file) {
         return res.status(400).json({ message: "Rasm yuklanmadi, iltimos rasmni yuklang!" });
       }
-      const imgUrl = `${req.protocol}://${req.get("host")}/${req.file.filename}`;
+      const imgUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
       const book = await BooksModel.findByIdAndUpdate(bookId, {
         img: imgUrl,
       });
