@@ -8,7 +8,7 @@ const AuthValidation = (data) => {
           "Foydalanuvchi nomi turi string ko'rinishida bo'lishi kerak!",
         "string.empty": "Foydalanuvchi nomi bo'sh bo'lmasligi kerak!",
         "any.required":
-          "Foydalanuvchi nomi talab qilnadi va kiritilishi lozim!",
+          "Foydalanuvchi nomi talab qilinadi va kiritilishi lozim!",
       }),
       email: Joi.string().email().required().messages({
         "string.base": "Email turi string ko'rinishida bo'lishi kerak!",
@@ -18,15 +18,17 @@ const AuthValidation = (data) => {
         "any.required": "Email talab qilnadi va kiritilishi lozim!",
       }),
       password: Joi.alternatives()
-        .try(Joi.string(), Joi.number())
+        .try(Joi.string().min(5).max(30), Joi.number().min(10000).max(99999999999999999999999999999))
         .required()
         .messages({
-          "string.base": "Parol turi string bo'lishi kerak!",
-          "number.base": "Parol turi raqam bo'lishi kerak",
-          "string.empty": "Parol bo'sh bo'lmasligi kerak!",
-          "number.empty": "Parol bo'sh bo'lmasligi kerak!",
+          "string.min": "Parol kamida 5 ta belgidan iborat bo'lishi kerak!",
+          "string.max":
+            "Parol ko'pi bilan 30 ta belgidan iborat bo'lishi mumkin!",
+          "number.min": "Parol kamida 5 ta belgidan iborat bo'lishi kerak!",
+          "number.max":
+            "Parol ko'pi bilan 30 ta belgidan iborat bo'lishi mumkin!",
           "any.required": "Parol talab qilinadi va kiritilishi lozim!",
-        })
+        }),
     });
     return AuthSchemaValidation.validate(data);
   } catch (error) {

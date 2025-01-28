@@ -1,20 +1,28 @@
-openapi: 3.0.3
+openapi: 3.0.0
 info:
-  title: Library Management API
-  description: API documentation for the Library Management System
+  title: User Authentication API
   version: 1.0.0
-  contact:
-    name: Developer
-    email: developer@example.com
+  description: API for user registration, login, verification, password recovery, and logout.
 servers:
   - url: https://library-project-6agw.onrender.com
-    description: Current Server
+    description: Local server
+tags:
+  - name: Authentication
+    description: Endpoints related to user authentication
+  - name: Books
+    description: Endpoints related to books
+  - name: Authors
+    description: Endpoints related to authors
+  - name: Comments
+    description: Endpoints related to comments
+  - name: Members
+    description: Endpoints related to members
 paths:
   /register:
     post:
-      summary: Register a new user
       tags:
         - Authentication
+      summary: Register a new user
       requestBody:
         required: true
         content:
@@ -24,24 +32,25 @@ paths:
               properties:
                 username:
                   type: string
+                  example: shuhrat
                 email:
                   type: string
+                  example: shuhratkarimov.dev@gmail.com
                 password:
                   type: string
-              required:
-                - username
-                - email
-                - password
+                  example: "1111"
       responses:
-        201:
-          description: User successfully registered
-        400:
-          description: Bad request
+        '201':
+          description: Registration successful
+        '403':
+          description: User already registered
+        '500':
+          description: Server error
   /verify:
     post:
-      summary: Verify a new user's registration with the verification code
       tags:
         - Authentication
+      summary: Verify user's email
       requestBody:
         required: true
         content:
@@ -51,24 +60,22 @@ paths:
               properties:
                 email:
                   type: string
+                  example: shuhratkarimov.dev@gmail.com
                 code:
                   type: string
-                  description: Verification code sent to the user's email
-              required:
-                - email
-                - code
+                  example: "11111"
       responses:
-        200:
-          description: User successfully verified
-        400:
-          description: Bad request
-        401:
-          description: Verification failed
-  /login:
+        '200':
+          description: Email verification successful
+        '401':
+          description: Verification code invalid or expired
+        '404':
+          description: User not found
+  /resend_verification_code:
     post:
-      summary: Login a user
       tags:
         - Authentication
+      summary: Resend email verification code
       requestBody:
         required: true
         content:
@@ -78,26 +85,147 @@ paths:
               properties:
                 email:
                   type: string
-                password:
-                  type: string
-              required:
-                - email
-                - password
+                  example: shuhratkarimov.dev@gmail.com
       responses:
-        200:
-          description: User logged in successfully
-        401:
-          description: Unauthorized
-  /logout:
+        '200':
+          description: Verification code resent successfully
+        '404':
+          description: User not found or already verified
+        '500':
+          description: Server error
+  /get_forgot_password_code:
     post:
-      summary: Logout a user
       tags:
         - Authentication
+      summary: Request password recovery
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
       responses:
-        200:
-          description: User logged out successfully
-        401:
-          description: Unauthorized
+        '200':
+          description: Password recovery code sent
+        '404':
+          description: User not found
+        '500':
+          description: Server error
+  /verify_forgot_password_code:
+    post:
+      tags:
+        - Authentication
+      summary: Verify password recovery code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                code:
+                  type: number
+                  example: 123456
+      responses:
+        '200':
+          description: Recovery code verified
+        '401':
+          description: Invalid or expired recovery code
+        '404':
+          description: User not found
+  /resend_recover_password_code:
+    post:
+      tags:
+        - Authentication
+      summary: Resend password recovery code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+      responses:
+        '200':
+          description: Recovery code resent successfully
+        '404':
+          description: User not found
+        '429':
+          description: Too many attempts; try later
+        '500':
+          description: Server error
+  /add_new_password:
+    post:
+      tags:
+        - Authentication
+      summary: Add a new password
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                newPassword:
+                  type: string
+                  example: NewP@ssw0rd
+      responses:
+        '200':
+          description: Password updated successfully
+        '403':
+          description: New password is too short
+        '404':
+          description: User not found
+        '500':
+          description: Server error
+  /login:
+    post:
+      tags:
+        - Authentication
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                password:
+                  type: string
+                  example: P@ssw0rd
+      responses:
+        '200':
+          description: Login successful
+        '401':
+          description: Invalid credentials
+        '500':
+          description: Server error
+  /logout:
+    post:
+      tags:
+        - Authentication
+      summary: User logout
+      responses:
+        '200':
+          description: Logout successful
+        '500':
+          description: Server error
   /get_books:
     get:
       summary: Get all books
@@ -108,16 +236,13 @@ paths:
           description: List of all books
   /add_book:
     post:
-      summary: Upload a picture and add a new book
+      summary: Create a new book
       tags:
-        - File Upload
         - Books
-      security:
-        - BearerAuth: []
       requestBody:
         required: true
         content:
-          multipart/form-data:
+          application/json:
             schema:
               type: object
               properties:
@@ -135,9 +260,6 @@ paths:
                   type: string
                 description:
                   type: string
-                picture:
-                  type: string
-                  format: binary
               required:
                 - title
                 - pages
@@ -146,10 +268,9 @@ paths:
                 - country
                 - author
                 - description
-                - picture
       responses:
         201:
-          description: Book and picture uploaded successfully
+          description: Book created successfully
           content:
             application/json:
               schema:
@@ -158,31 +279,34 @@ paths:
                   message:
                     type: string
                   book:
-                    type: object
-                    properties:
-                      title:
-                        type: string
-                      pages:
-                        type: integer
-                      year:
-                        type: integer
-                      price:
-                        type: number
-                      country:
-                        type: string
-                      author:
-                        type: string
-                      description:
-                        type: string
-                      picture:
-                        type: object
-                        properties:
-                          fileName:
-                            type: string
-                          link:
-                            type: string
-        400:
-          description: Bad request - Picture or book details not uploaded
+                    $ref: '#/components/schemas/Book'
+  /upload_book_image/{bookId}:
+    post:
+      summary: Upload an image for a book
+      tags:
+        - Books
+      parameters:
+        - in: path
+          name: bookId
+          required: true
+          schema:
+            type: string
+          description: The ID of the book to upload an image for
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                picture:
+                  type: string
+                  format: binary
+              required:
+                - picture
+      responses:
+        200:
+          description: Image uploaded successfully
           content:
             application/json:
               schema:
@@ -190,8 +314,17 @@ paths:
                 properties:
                   message:
                     type: string
-        401:
-          description: Unauthorized - Access token is invalid or missing
+                  img:
+                    type: object
+                    properties:
+                      fileName:
+                        type: string
+                      link:
+                        type: string
+        400:
+          description: Bad request
+        404:
+          description: Book not found
   /get_one_book/{id}:
     get:
       summary: Get book by ID
@@ -301,15 +434,13 @@ paths:
           description: List of all authors
   /add_author:
     post:
-      summary: Add a new author with an image
+      summary: Add a new author
       tags:
         - Authors
-      security:
-        - BearerAuth: []
       requestBody:
         required: true
         content:
-          multipart/form-data:
+          application/json:
             schema:
               type: object
               properties:
@@ -324,20 +455,44 @@ paths:
                 country:
                   type: string
                 bio:
-                  type: string
-                author_picture:
-                  type: string
-                  format: binary
+                  type: string    
               required:
                 - full_name
                 - dateOfBirth
-                - dateOfDeath
                 - country
                 - bio
-                - author_picture
       responses:
         201:
           description: Author added successfully
+        400:
+          description: Bad request
+  /upload_author_image/{authorId}:
+    post:
+      summary: Upload an image for a author
+      tags:
+        - Authors
+      parameters:
+        - in: path
+          name: authorId
+          required: true
+          schema:
+            type: string
+          description: The ID of the author to upload an image for
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                picture:
+                  type: string
+                  format: binary
+              required:
+                - picture
+      responses:
+        200:
+          description: Image uploaded successfully
           content:
             application/json:
               schema:
@@ -345,37 +500,17 @@ paths:
                 properties:
                   message:
                     type: string
-                  author:
+                  img:
                     type: object
                     properties:
-                      full_name:
+                      fileName:
                         type: string
-                      dateOfBirth:
+                      link:
                         type: string
-                      dateOfDeath:
-                        type: string
-                      country:
-                        type: string
-                      bio:
-                        type: string
-                      author_picture:
-                        type: object
-                        properties:
-                          fileName:
-                            type: string
-                          link:
-                            type: string
         400:
-          description: Bad request - Author details or picture not uploaded
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-        401:
-          description: Unauthorized - Access token is invalid or missing
+          description: Bad request
+        404:
+          description: Author not found          
   /search_authors:
     get:
       summary: Search authors by name
@@ -400,7 +535,7 @@ paths:
         404:
           description: No author found by this name
         400:
-          description: Bad request (e.g., missing or invalid query parameters)
+          description: Bad request (e.g., missing or invalid query parameters)     
   /get_one_author/{id}:
     get:
       summary: Get author by ID
@@ -448,7 +583,7 @@ paths:
                 country:
                   type: string
                 bio:
-                  type: string
+                  type: string                  
       responses:
         200:
           description: Author updated successfully
@@ -545,6 +680,9 @@ components:
     Book:
       type: object
       properties:
+        id:
+          type: string
+          description: Unique identifier for the book
         title:
           type: string
         author:
@@ -567,6 +705,9 @@ components:
     Author:
       type: object
       properties:
+        id:
+          type: string
+          description: Unique identifier for the author
         full_name:
           type: string
         dateOfBirth:
@@ -584,3 +725,50 @@ components:
         - dateOfBirth
         - country
         - bio
+    Error:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Error message
+        code:
+          type: integer
+          description: HTTP status code of the error
+        errors:
+          type: array
+          items:
+            type: string
+          description: List of error details
+      required:
+        - message
+        - code
+    Member:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the member
+        memberName:
+          type: string
+        age:
+          type: integer
+      required:
+        - memberName
+        - age
+    Comment:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the comment
+        member_info:
+          type: string
+        book_info:
+          type: string
+        comment:
+          type: string
+      required:
+        - member_info
+        - book_info
+        - comment
+

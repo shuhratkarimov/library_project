@@ -53,6 +53,10 @@ const booksSchema = new Schema(
       required: [true, "Muallif to'liq ismi kiritilishi lozim"],
     },
     description: { type: String, required: true },
+    img: {
+      type: String,
+      default: "Rasm yuklanmagan"
+    }
   },
   { versionKey: false }
 );

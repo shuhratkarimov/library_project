@@ -1,3 +1,4 @@
+const { attempt, number } = require("joi");
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
@@ -26,6 +27,21 @@ const UserSchema = new Schema(
       type: String,
       default: "user",
     },
+    timestamp: {
+      type: Date
+    },
+    password_recover_code: {
+      type: Number,
+      default: 0
+    },
+    attempts: {
+      type: Number,
+      default: 0
+    },
+    allowed_time: {
+      type: Date,
+      default: Date.now()
+    }
   },
   { versionKey: false }
 );

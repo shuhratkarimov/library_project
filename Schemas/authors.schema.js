@@ -19,6 +19,10 @@ const authorsSchema = new Schema({
      type: String, 
      required: [true, "Muallif haqida ma'lumot kiritilishi kerak!"] 
     },
+    img: {
+      type: String,
+      default: "Rasm yuklanmagan!"
+    }
 }, 
 {versionKey: false});
 const AuthorsModel = mongoose.model("authors", authorsSchema);

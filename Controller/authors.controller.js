@@ -2,8 +2,7 @@ const AuthorsModel = require("../Schemas/authors.schema");
 const mongoose = require("mongoose");
 const BaseError = require("../Utils/base_error");
 const logger = require("../service/logger")
-const multer = require("multer");
-const path = require("path");
+
 ////////////// get
 
 async function getAuthors(req, res, next) {
@@ -63,45 +62,15 @@ async function getOneAuthor(req, res, next) {
 
 async function addAuthor(req, res, next) {
   try {
-    const storage = multer.diskStorage({
-      destination: (req, file, cb) => {
-        cb(null, path.join(__dirname, "../uploads"));
-      },
-      filename: (req, file, cb) => {
-        const fileNewName = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}${path.extname(file.originalname)}`;
-        cb(null, fileNewName);
-      },
-    });
-    const upload = multer({ storage: storage }).single("author_picture");
-    upload(req, res, async (err) => {
-      if (err) {
-        return res.status(400).json({ message: "Rasm yuklanmadi, iltimos rasmni yuklang!" });
-      }
-      if (!req.file) {
-        return res.status(400).json({ message: "Rasm yuklanmadi, iltimos rasmni yuklang!" });
-      }
-      const { full_name, dateOfBirth, dateOfDeath, country, bio } = req.body;
-      const newAuthor = new AuthorsModel({
-        full_name,
-        dateOfBirth,
-        dateOfDeath,
-        country,
-        bio,
-        author_picture: {
-          fileName: req.file.filename,
-          link: `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`,
-        },
-      });
-      await newAuthor.save();
-      res.status(201).json({
-        message: "Yangi adib ro'yxatga muvaffaqiyatli qo'shildi!"
-      });
+    const author = new AuthorsModel(req.body);
+    await author.save();
+    res.status(201).json({
+      message: "Yangi adib ro'yxatga muvaffaqiyatli qo'shildi!",
     });
   } catch (error) {
-    next(error); // 
+    next(error);
   }
-};
-
+}
 
 ////////////// update
 
