@@ -2957,3 +2957,171 @@
   level: 'info',
   timestamp: '2025-01-26 17:37:43'
 }
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "10ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 21:57:59'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-26 21:58:06'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-26 21:58:07'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "822ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Mzc5MTA2ODcsImV4cCI6MTczNzkxMTU4N30.wW8CbkLUaDXYqBfp71q2waxP0t7UepVIiDQhgtnzFiM; Max-Age=900; Path=/; Expires=Sun, 26 Jan 2025 17:13:07 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Mzc5MTA2ODcsImV4cCI6MTczODUxNTQ4N30.dyb9eLWTYd2mJwkcCKiwuhBWzmWNfg2kTJ_suRVchls; Max-Age=604800; Path=/; Expires=Sun, 02 Feb 2025 16:58:07 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 21:58:07'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "26ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "54",\n' +
+    '        "etag": "W/\\"36-lQ/C/04zXet1ISjSQRip93JrK30\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 21:58:17'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "17ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "54",\n' +
+    '        "etag": "W/\\"36-lQ/C/04zXet1ISjSQRip93JrK30\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 22:00:48'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "27ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "256",\n' +
+    '        "etag": "W/\\"100-6ypgKFqk3biRdW1PZU6QnurBC6E\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 22:02:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1737910955179-gsogvei8z.png",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "22ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 17:02:35 GMT",\n' +
+    '        "etag": "W/\\"931a5-194a390acb0\\"",\n' +
+    '        "content-type": "image/png",\n' +
+    '        "content-length": 602533\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 22:02:52'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1737910955185-f0vz13onf.png",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "19ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 17:02:35 GMT",\n' +
+    '        "etag": "W/\\"931a5-194a390acb5\\"",\n' +
+    '        "content-type": "image/png",\n' +
+    '        "content-length": 602533\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 22:02:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon.ico",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 150\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-26 22:02:56'
+}

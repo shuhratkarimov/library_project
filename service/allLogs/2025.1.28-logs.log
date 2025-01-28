@@ -1,0 +1,468 @@
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "12ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:29:41'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "8ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\"",\n' +
+    '        "content-type": "text/css; charset=UTF-8",\n' +
+    '        "content-length": 152072\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:29:41'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/javascript; charset=utf-8",\n' +
+    '        "content-length": "20937",\n' +
+    '        "etag": "W/\\"51c9-+34fcf2T3/KepKSrjN1XiomB/+Q\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:29:41'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "11ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\"",\n' +
+    '        "content-type": "application/javascript; charset=UTF-8",\n' +
+    '        "content-length": 230007\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:29:41'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "25ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\"",\n' +
+    '        "content-type": "application/javascript; charset=UTF-8",\n' +
+    '        "content-length": 1426050\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:29:41'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?brand=lamborghini",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 147\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:30:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"c22-H8FH9nKD8DeX/nvIRrte6ZjP2a4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:30:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui.css",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:50 GMT",\n' +
+    '        "etag": "W/\\"25208-194a20f7a21\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:30:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-bundle.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"15c282-194a20f7ad8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:30:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-standalone-preset.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "7ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"38277-194a20f7b1c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:30:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/swagger-ui-init.js",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "8ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"51c9-+34fcf2T3/KepKSrjN1XiomB/+Q\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:30:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon-32x32.png",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Sun, 26 Jan 2025 10:01:51 GMT",\n' +
+    '        "etag": "W/\\"274-194a20f7ba4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:30:22'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "56ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "Ferrari",\n' +
+    '        "model": "SF90 Spider",\n' +
+    '        "motor": 5,\n' +
+    '        "color": "Qizil",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 100000,\n' +
+    '        "price": 5500000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "71",\n' +
+    '        "etag": "W/\\"47-s2x24pXqG1TzwFsfbuzNNLenzqs\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:52:31'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {\n' +
+    '        "full_name": "Said Ahmad",\n' +
+    '        "model": "SF90 Spider",\n' +
+    '        "motor": 5,\n' +
+    '        "color": "Qizil",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 100000,\n' +
+    '        "price": 5500000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "72",\n' +
+    '        "etag": "W/\\"48-GKY593PyCqh2XB9Az/J8+V4UxeU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:52:46'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {\n' +
+    '        "full_name": "Said Ahmad",\n' +
+    '        "dateOfBirth": "2015-03-25T12:00:00Z",\n' +
+    '        "motor": 5,\n' +
+    '        "color": "Qizil",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 100000,\n' +
+    '        "price": 5500000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "65",\n' +
+    '        "etag": "W/\\"41-MUBc/kNd7oJ8UJ5TWRbFk4rBHOU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:53:50'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {\n' +
+    '        "full_name": "Said Ahmad",\n' +
+    '        "dateOfBirth": "2015-03-25T12:00:00Z",\n' +
+    '        "country": "Uzb",\n' +
+    '        "color": "Qizil",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 100000,\n' +
+    '        "price": 5500000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "80",\n' +
+    '        "etag": "W/\\"50-t93qMZRsxh8YAYva17F17jHquWo\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:01'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {\n' +
+    '        "full_name": "Said Ahmad",\n' +
+    '        "dateOfBirth": "2015-03-25T12:00:00Z",\n' +
+    '        "country": "Uzb",\n' +
+    '        "bio": "Yaxshi asarlar yozgan",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 100000,\n' +
+    '        "price": 5500000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "40",\n' +
+    '        "etag": "W/\\"28-XVsXDWNu7vmYCvLnsnpFM5Yc4dE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:14'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "118",\n' +
+    '        "etag": "W/\\"76-P0ax3ymNHFJTr3Rem29BHH8/bM8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:20'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {\n' +
+    '        "full_name": "Said Ahmad",\n' +
+    '        "dateOfBirth": "2015-03-25T12:00:00Z",\n' +
+    '        "country": "Uzb",\n' +
+    '        "bio": "Yaxshi asarlar yozgan"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:25'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:33'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:33'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "765ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MzgwNDM2NzMsImV4cCI6MTczODA0NDU3M30.ogDiFT9UZmp-JC093NF4aOCjb8uWAFrDISdE7TjH800; Max-Age=900; Path=/; Expires=Tue, 28 Jan 2025 06:09:33 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MzgwNDM2NzMsImV4cCI6MTczODY0ODQ3M30.cd3kOfFI-QAfl16pCjNnaPDE-W-X9MWI7G4atDc4a_0; Max-Age=604800; Path=/; Expires=Tue, 04 Feb 2025 05:54:33 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:33'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_author",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {\n' +
+    '        "full_name": "Said Ahmad",\n' +
+    '        "dateOfBirth": "2015-03-25T12:00:00Z",\n' +
+    '        "country": "Uzb",\n' +
+    '        "bio": "Yaxshi asarlar yozgan"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "54",\n' +
+    '        "etag": "W/\\"36-lQ/C/04zXet1ISjSQRip93JrK30\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-28 10:54:40'
+}

@@ -1,0 +1,92 @@
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "7ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-27 09:17:04'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-27 09:17:12'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-27 09:17:13'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "796ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Mzc5NTE0MzMsImV4cCI6MTczNzk1MjMzM30.NtvrQxtB5ZcryS2ZKqO1jpCmgX7jrTYkBGdfDDFmIdQ; Max-Age=900; Path=/; Expires=Mon, 27 Jan 2025 04:32:13 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNodWhyYXQiLCJlbWFpbCI6InNodWhyYXRrYXJpbW92LmRldkBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Mzc5NTE0MzMsImV4cCI6MTczODU1NjIzM30.GQoMbfmiLM7II4KDQgVwxkJ0XtLVz4NjcSnR5ohqbio; Max-Age=604800; Path=/; Expires=Mon, 03 Feb 2025 04:17:13 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-27 09:17:13'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "10ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "151",\n' +
+    '        "etag": "W/\\"97-VeHqM75vQP42aXCR+L6/72kMJYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-27 09:17:18'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1737951438569-72gdu7z6i.png",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "7ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Mon, 27 Jan 2025 04:17:18 GMT",\n' +
+    '        "etag": "W/\\"931a5-194a5fa66ec\\"",\n' +
+    '        "content-type": "image/png",\n' +
+    '        "content-length": 602533\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-27 09:17:24'
+}

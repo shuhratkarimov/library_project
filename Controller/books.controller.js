@@ -1,6 +1,8 @@
 const BooksModel = require("../Schemas/books.schema");
 const mongoose = require("mongoose");
 const BaseError = require("../Utils/base_error");
+const multer = require("multer");
+const path = require("path");
 
 ////////////// get
 
@@ -63,15 +65,47 @@ async function getOneBook(req, res, next) {
 
 async function addBook(req, res, next) {
   try {
-    const book = new BooksModel(req.body);
-    await book.save();
-    res.status(201).json({
-      message: "Yangi kitob ro'yxatga muvaffaqiyatli qo'shildi!",
+    const storage = multer.diskStorage({
+      destination: (req, file, cb) => {
+        cb(null, path.join(__dirname, "../uploads"));
+      },
+      filename: (req, file, cb) => {
+        const fileNewName = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}${path.extname(file.originalname)}`;
+        cb(null, fileNewName); 
+      },
+    });
+    const upload = multer({ storage: storage }).single("picture");
+    upload(req, res, async (err) => {
+      if (err) {
+        return res.status(400).json({ message: "Rasm yuklanmadi, iltimos rasmni yuklang!" });
+      }
+      if (!req.file) {
+        return res.status(400).json({ message: "Rasm yuklanmadi, iltimos rasmni yuklang!" });
+      }
+      const { title, pages, year, price, country, author, description } = req.body;
+      const newBook = new BooksModel({
+        title,
+        pages,
+        year,
+        price,
+        country,
+        author,
+        description,
+        picture: {
+          fileName: req.file.filename,
+          link: `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`,
+        },
+      });
+      await newBook.save();
+      res.status(201).json({
+        message: "Yangi kitob ro'yxatga muvaffaqiyatli qo'shildi!"
+      });
     });
   } catch (error) {
     next(error);
   }
-}
+};
+
 
 ////////////// update
 
