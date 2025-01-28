@@ -268,6 +268,8 @@ paths:
                 - country
                 - author
                 - description
+      security:
+        - bearerAuth: []
       responses:
         201:
           description: Book created successfully
@@ -304,6 +306,8 @@ paths:
                   format: binary
               required:
                 - picture
+      security:
+        - bearerAuth: []
       responses:
         200:
           description: Image uploaded successfully
@@ -400,6 +404,8 @@ paths:
                   type: string
                 description:
                   type: string
+      security:
+        - bearerAuth: []
       responses:
         200:
           description: Book updated successfully
@@ -419,6 +425,8 @@ paths:
             type: string
           required: true
           description: ID of the book to delete
+      security:
+        - bearerAuth: []
       responses:
         200:
           description: Book deleted successfully
@@ -461,6 +469,8 @@ paths:
                 - dateOfBirth
                 - country
                 - bio
+      security:
+        - bearerAuth: []
       responses:
         201:
           description: Author added successfully
@@ -490,6 +500,8 @@ paths:
                   format: binary
               required:
                 - picture
+      security:
+        - bearerAuth: []
       responses:
         200:
           description: Image uploaded successfully
@@ -584,6 +596,8 @@ paths:
                   type: string
                 bio:
                   type: string                  
+      security:
+        - bearerAuth: []
       responses:
         200:
           description: Author updated successfully
@@ -603,6 +617,8 @@ paths:
             type: string
           required: true
           description: ID of the author to delete
+      security:
+        - bearerAuth: []
       responses:
         200:
           description: Author deleted successfully
@@ -771,4 +787,9 @@ components:
         - member_info
         - book_info
         - comment
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
 
