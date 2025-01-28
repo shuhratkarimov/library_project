@@ -11,59 +11,59 @@ servers:
     description: Current Server
 paths:
   /register:
-  post:
-    summary: Register a new user
-    tags:
-      - Authentication
-    requestBody:
-      required: true
-      content:
-        application/json:
-          schema:
-            type: object
-            properties:
-              username:
-                type: string
-              email:
-                type: string
-              password:
-                type: string
-            required:
-              - username
-              - email
-              - password
-    responses:
-      201:
-        description: User successfully registered
-      400:
-        description: Bad request
+    post:
+      summary: Register a new user
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+                - username
+                - email
+                - password
+      responses:
+        201:
+          description: User successfully registered
+        400:
+          description: Bad request
   /verify:
-  post:
-    summary: Verify a new user's registration with the verification code
-    tags:
-      - Authentication
-    requestBody:
-      required: true
-      content:
-        application/json:
-          schema:
-            type: object
-            properties:
-              email:
-                type: string
-              code:
-                type: string
-                description: Verification code sent to the user's email
-            required:
-              - email
-              - code
-    responses:
-      200:
-        description: User successfully verified
-      400:
-        description: Bad request
-      401:
-        description: Verification failed
+    post:
+      summary: Verify a new user's registration with the verification code
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                code:
+                  type: string
+                  description: Verification code sent to the user's email
+              required:
+                - email
+                - code
+      responses:
+        200:
+          description: User successfully verified
+        400:
+          description: Bad request
+        401:
+          description: Verification failed
   /login:
     post:
       summary: Login a user
@@ -87,7 +87,7 @@ paths:
         200:
           description: User logged in successfully
         401:
-          description: Unauthorized 
+          description: Unauthorized
   /logout:
     post:
       summary: Logout a user
@@ -97,7 +97,7 @@ paths:
         200:
           description: User logged out successfully
         401:
-          description: Unauthorized             
+          description: Unauthorized
   /get_books:
     get:
       summary: Get all books
@@ -106,92 +106,92 @@ paths:
       responses:
         200:
           description: List of all books
-/upload_add_book:
-  post:
-    summary: Upload a picture and add a new book
-    tags:
-      - File Upload
-      - Books
-    security:
-      - BearerAuth: []
-    requestBody:
-      required: true
-      content:
-        multipart/form-data:
-          schema:
-            type: object
-            properties:
-              title:
-                type: string
-              pages:
-                type: integer
-              year:
-                type: integer
-              price:
-                type: number
-              country:
-                type: string
-              author:
-                type: string
-              description:
-                type: string
-              picture:
-                type: string
-                format: binary
-            required:
-              - title
-              - pages
-              - year
-              - price
-              - country
-              - author
-              - description
-              - picture
-    responses:
-      201:
-        description: Book and picture uploaded successfully
+  /add_book:
+    post:
+      summary: Upload a picture and add a new book
+      tags:
+        - File Upload
+        - Books
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
         content:
-          application/json:
+          multipart/form-data:
             schema:
               type: object
               properties:
-                message:
+                title:
                   type: string
-                book:
-                  type: object
-                  properties:
-                    title:
-                      type: string
-                    pages:
-                      type: integer
-                    year:
-                      type: integer
-                    price:
-                      type: number
-                    country:
-                      type: string
-                    author:
-                      type: string
-                    description:
-                      type: string
-                    picture:
-                      type: object
-                      properties:
-                        fileName:
-                          type: string
-                        link:
-                          type: string
-      400:
-        description: Bad request - Picture or book details not uploaded
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                message:
+                pages:
+                  type: integer
+                year:
+                  type: integer
+                price:
+                  type: number
+                country:
                   type: string
-      401:
-        description: Unauthorized - Access token is invalid or missing
+                author:
+                  type: string
+                description:
+                  type: string
+                picture:
+                  type: string
+                  format: binary
+              required:
+                - title
+                - pages
+                - year
+                - price
+                - country
+                - author
+                - description
+                - picture
+      responses:
+        201:
+          description: Book and picture uploaded successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  book:
+                    type: object
+                    properties:
+                      title:
+                        type: string
+                      pages:
+                        type: integer
+                      year:
+                        type: integer
+                      price:
+                        type: number
+                      country:
+                        type: string
+                      author:
+                        type: string
+                      description:
+                        type: string
+                      picture:
+                        type: object
+                        properties:
+                          fileName:
+                            type: string
+                          link:
+                            type: string
+        400:
+          description: Bad request - Picture or book details not uploaded
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        401:
+          description: Unauthorized - Access token is invalid or missing
   /get_one_book/{id}:
     get:
       summary: Get book by ID
@@ -300,82 +300,82 @@ paths:
         200:
           description: List of all authors
   /add_author:
-  post:
-    summary: Add a new author with an image
-    tags:
-      - Authors
-    security:
-      - BearerAuth: []
-    requestBody:
-      required: true
-      content:
-        multipart/form-data:
-          schema:
-            type: object
-            properties:
-              full_name:
-                type: string
-              dateOfBirth:
-                type: string
-                format: date
-              dateOfDeath:
-                type: string
-                format: date
-              country:
-                type: string
-              bio:
-                type: string
-              author_picture:
-                type: string
-                format: binary
-            required:
-              - full_name
-              - dateOfBirth
-              - dateOfDeath
-              - country
-              - bio
-              - author_picture
-    responses:
-      201:
-        description: Author added successfully
+    post:
+      summary: Add a new author with an image
+      tags:
+        - Authors
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
         content:
-          application/json:
+          multipart/form-data:
             schema:
               type: object
               properties:
-                message:
+                full_name:
                   type: string
-                author:
-                  type: object
-                  properties:
-                    full_name:
-                      type: string
-                    dateOfBirth:
-                      type: string
-                    dateOfDeath:
-                      type: string
-                    country:
-                      type: string
-                    bio:
-                      type: string
-                    author_picture:
-                      type: object
-                      properties:
-                        fileName:
-                          type: string
-                        link:
-                          type: string
-      400:
-        description: Bad request - Author details or picture not uploaded
-        content:
-          application/json:
-            schema:
-              type: object
-              properties:
-                message:
+                dateOfBirth:
                   type: string
-      401:
-        description: Unauthorized - Access token is invalid or missing
+                  format: date
+                dateOfDeath:
+                  type: string
+                  format: date
+                country:
+                  type: string
+                bio:
+                  type: string
+                author_picture:
+                  type: string
+                  format: binary
+              required:
+                - full_name
+                - dateOfBirth
+                - dateOfDeath
+                - country
+                - bio
+                - author_picture
+      responses:
+        201:
+          description: Author added successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  author:
+                    type: object
+                    properties:
+                      full_name:
+                        type: string
+                      dateOfBirth:
+                        type: string
+                      dateOfDeath:
+                        type: string
+                      country:
+                        type: string
+                      bio:
+                        type: string
+                      author_picture:
+                        type: object
+                        properties:
+                          fileName:
+                            type: string
+                          link:
+                            type: string
+        400:
+          description: Bad request - Author details or picture not uploaded
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        401:
+          description: Unauthorized - Access token is invalid or missing
   /search_authors:
     get:
       summary: Search authors by name
@@ -389,7 +389,7 @@ paths:
             type: string
           description: The name of the author to search for (supports partial matching, case-insensitive)
       responses:
-        '200':
+        200:
           description: A group of authors matching the name
           content:
             application/json:
@@ -397,10 +397,10 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Author'
-        '404':
+        404:
           description: No author found by this name
-        '400':
-          description: Bad request (e.g., missing or invalid query parameters)     
+        400:
+          description: Bad request (e.g., missing or invalid query parameters)
   /get_one_author/{id}:
     get:
       summary: Get author by ID
@@ -440,13 +440,15 @@ paths:
                 full_name:
                   type: string
                 dateOfBirth:
-                  type: Date
+                  type: string
+                  format: date
                 dateOfDeath:
-                  type: Date
+                  type: string
+                  format: date
                 country:
-                  type: integer
+                  type: string
                 bio:
-                  type: string                  
+                  type: string
       responses:
         200:
           description: Author updated successfully
@@ -568,11 +570,13 @@ components:
         full_name:
           type: string
         dateOfBirth:
-          type: Date
+          type: string
+          format: date
         dateOfDeath:
-          type: Date
+          type: string
+          format: date
         country:
-          type: integer
+          type: string
         bio:
           type: string
       required:
