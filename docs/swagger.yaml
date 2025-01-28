@@ -10,9 +10,9 @@ servers:
   - url: https://library-project-6agw.onrender.com
     description: Current Server
 paths:
-/register:
+  /register:
   post:
-    summary: Register and verify a new user
+    summary: Register a new user
     tags:
       - Authentication
     requestBody:
@@ -28,17 +28,38 @@ paths:
                 type: string
               password:
                 type: string
-              code:
-                type: string
-                description: Verification code sent to the user's email
             required:
               - username
               - email
               - password
-              - code
     responses:
       201:
-        description: User successfully registered and verified
+        description: User successfully registered
+      400:
+        description: Bad request
+  /verify:
+  post:
+    summary: Verify a new user's registration with the verification code
+    tags:
+      - Authentication
+    requestBody:
+      required: true
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              email:
+                type: string
+              code:
+                type: string
+                description: Verification code sent to the user's email
+            required:
+              - email
+              - code
+    responses:
+      200:
+        description: User successfully verified
       400:
         description: Bad request
       401:
