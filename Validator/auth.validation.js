@@ -17,16 +17,13 @@ const AuthValidation = (data) => {
         "string.empty": "Email bo'sh bo'lmasligi kerak!",
         "any.required": "Email talab qilnadi va kiritilishi lozim!",
       }),
-      password: Joi.alternatives()
-        .try(Joi.string().min(5).max(30), Joi.number().min(10000).max(99999999999999999999999999999))
+      password: Joi.string().min(5).max(30)
         .required()
         .messages({
+          "string.base": "Parol string turida bo'lishi kerak!",
           "string.min": "Parol kamida 5 ta belgidan iborat bo'lishi kerak!",
           "string.max":
-            "Parol ko'pi bilan 30 ta belgidan iborat bo'lishi mumkin!",
-          "number.min": "Parol kamida 5 ta belgidan iborat bo'lishi kerak!",
-          "number.max":
-            "Parol ko'pi bilan 30 ta belgidan iborat bo'lishi mumkin!",
+          "Parol ko'pi bilan 30 ta belgidan iborat bo'lishi mumkin!",
           "any.required": "Parol talab qilinadi va kiritilishi lozim!",
         }),
     });

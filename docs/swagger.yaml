@@ -1,11 +1,11 @@
 openapi: 3.0.0
 info:
-  title: User Authentication API
+  title: Online Library Management API
   version: 1.0.0
-  description: API for user registration, login, verification, password recovery, and logout.
+  description: API for user authentication, managing books, authors and members of the library.
 servers:
   - url: https://library-project-6agw.onrender.com
-    description: Local server
+    description: Production server
 tags:
   - name: Authentication
     description: Endpoints related to user authentication
@@ -38,7 +38,7 @@ paths:
                   example: shuhratkarimov.dev@gmail.com
                 password:
                   type: string
-                  example: "1111"
+                  example: "11111"
       responses:
         '201':
           description: Registration successful
