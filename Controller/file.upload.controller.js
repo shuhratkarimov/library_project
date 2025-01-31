@@ -1,74 +1,52 @@
+const BackblazeB2 = require("backblaze-b2");
 const multer = require("multer");
-const path = require("path");
-const fs = require("fs");
-const BooksModel = require("../Schemas/books.schema");
-const AuthorsModel = require("../Schemas/authors.schema");
-
-const uploadsDir = path.join(__dirname, "../uploads");
-if (!fs.existsSync(uploadsDir)) {
-  fs.mkdirSync(uploadsDir);
-}
-
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, uploadsDir);
-  },
-  filename: (req, file, cb) => {
-    const fileNewName = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}${path.extname(file.originalname)}`;
-    cb(null, fileNewName);
-  },
+const Book = require("../Schemas/books.schema");
+const BaseError = require("../Utils/base_error")
+require("dotenv").config();
+const b2 = new BackblazeB2({
+  keyId: process.env.B2_KEY_ID,
+  applicationKey: process.env.B2_APPLICATION_KEY,
 });
 
-const upload = multer({ storage });
+const storage = multer.memoryStorage();
+const upload = multer({ storage }).array("pictures", 3);
 
-async function uploadBookImage(req, res, next) {
+async function uploadBookImages(req, res, next) {
   try {
-    upload.single("picture")(req, res, async (err) => {
-      if (err || !req.file) {
-        return res.status(400).json({ message: "Rasm yuklanmadi, iltimos rasmni yuklang!" });
-      }
+    console.log(req.files); 
+    if (!req.files || req.files.length !== 3) {
+      return res.status(400).json({ message: "Iltimos, uchta rasm yuklang!" });
+    }
 
-      const bookId = req.params.bookId;
-      const imgUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
-      const book = await BooksModel.findByIdAndUpdate(bookId, { img: imgUrl });
+    await b2.authorize();
+    const bucketName = process.env.B2_BUCKET_NAME;
 
-      if (!book) {
-        return res.status(404).json({ message: "Kitob topilmadi!" });
-      }
+    const imageUrls = await Promise.all(
+      req.files.map(async (file) => {
+        const fileName = `${Date.now()}-${file.originalname}`;
+        const response = await b2.uploadFile(bucketName, file.buffer, fileName, {
+          "Content-Type": file.mimetype,
+        });
+        return response.data.fileUrl; 
+      })
+    );
 
-      res.status(200).json({
-        message: "Rasm muvaffaqiyatli yuklandi!",
-        img: { fileName: req.file.filename, link: imgUrl },
-      });
+    const bookId = req.params.bookId;
+    const book = await Book.findByIdAndUpdate(bookId, { img: imageUrls }, { new: true });
+    if (!book) {
+      return res.status(404).json({ message: "Kitob topilmadi!" });
+    }
+
+    res.status(200).json({
+      message: "Rasmlar muvaffaqiyatli yuklandi!",
+      images: imageUrls,
     });
   } catch (error) {
-    next(error);
+    next(error)
   }
 }
 
-async function uploadAuthorImage(req, res, next) {
-  try {
-    upload.single("picture")(req, res, async (err) => {
-      if (err || !req.file) {
-        return res.status(400).json({ message: "Rasm yuklanmadi, iltimos rasmni yuklang!" });
-      }
-
-      const authorId = req.params.authorId;
-      const imgUrl = `${req.protocol}://${req.get("host")}/uploads/${req.file.filename}`;
-      const author = await AuthorsModel.findByIdAndUpdate(authorId, { img: imgUrl });
-
-      if (!author) {
-        return res.status(404).json({ message: "Adib topilmadi!" });
-      }
-
-      res.status(200).json({
-        message: "Rasm muvaffaqiyatli yuklandi!",
-        img: { fileName: req.file.filename, link: imgUrl },
-      });
-    });
-  } catch (error) {
-    next(error);
-  }
+module.exports = {
+  uploadBookImages,
+  upload
 }
-
-module.exports = { uploadBookImage, uploadAuthorImage };

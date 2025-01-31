@@ -43,10 +43,11 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
-app.use(express.json());
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+const bodyParser = require("body-parser");
+app.use(bodyParser.json());
 const swaggerUi = require("swagger-ui-express");
 const YAML = require('yamljs');
+
 const swaggerDocument = YAML.load('./docs/swagger.yaml')
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.get('/', (req, res) => {

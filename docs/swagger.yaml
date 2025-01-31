@@ -62,8 +62,8 @@ paths:
                   type: string
                   example: shuhratkarimov.dev@gmail.com
                 code:
-                  type: string
-                  example: "11111"
+                  type: number
+                  example: 11111
       responses:
         '200':
           description: Email verification successful
