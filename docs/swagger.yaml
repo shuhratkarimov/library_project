@@ -524,7 +524,7 @@ paths:
         200:
           description: Author deleted successfully
         404:
-          description: Author not found
+          description: Author not found 
   /upload/{modelType}/{id}:
     post:
       summary: Foydalanuvchi yoki kitob uchun rasm yuklash
