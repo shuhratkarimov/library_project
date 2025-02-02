@@ -24,9 +24,8 @@ paths:
         - Authentication
       summary: Register a new user
       requestBody:
-        required: true
-        content:
-          application/json:
+          description: "User registration data"
+          required: true
             schema:
               type: object
               properties:

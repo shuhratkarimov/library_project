@@ -1,52 +1,57 @@
-const BackblazeB2 = require("backblaze-b2");
 const multer = require("multer");
-const Book = require("../Schemas/books.schema");
-const BaseError = require("../Utils/base_error")
-require("dotenv").config();
-const b2 = new BackblazeB2({
-  keyId: process.env.B2_KEY_ID,
-  applicationKey: process.env.B2_APPLICATION_KEY,
-});
+const path = require("path");
+const fs = require("fs");
+const CarsModel = require("../Schemas/cars.schema");
+const BaseError = require("../Utils/base_error");
 
-const storage = multer.memoryStorage();
-const upload = multer({ storage }).array("pictures", 3);
 
-async function uploadBookImages(req, res, next) {
+const uploadDir = path.join(__dirname, "../uploads");
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
+}
+
+async function fileUploader(req, res, next) {
   try {
-    console.log(req.files); 
-    if (!req.files || req.files.length !== 3) {
-      return res.status(400).json({ message: "Iltimos, uchta rasm yuklang!" });
-    }
+    const storage = multer.diskStorage({
+      destination: (req, file, cb) => {
+        cb(null, uploadDir);
+      },
+      filename: (req, file, cb) => {
+        const fileExtension = path.extname(file.originalname);
+        const fileNewName = `${Date.now()}${fileExtension}`;
+        cb(null, fileNewName);
+      },
+    });
 
-    await b2.authorize();
-    const bucketName = process.env.B2_BUCKET_NAME;
+    const upload = multer({ storage: storage });
 
-    const imageUrls = await Promise.all(
-      req.files.map(async (file) => {
-        const fileName = `${Date.now()}-${file.originalname}`;
-        const response = await b2.uploadFile(bucketName, file.buffer, fileName, {
-          "Content-Type": file.mimetype,
-        });
-        return response.data.fileUrl; 
-      })
-    );
+    upload.array("pictures", 3)(req, res, async (err) => {
+      if (err) {
+        return next(err);
+      }
+      if (req.files.length !== 3) {
+        return next(BaseError.BadRequest(404, "Yuklanadigan rasmlar soni 3 ta bo'lishi kerak!"));
+      }
 
-    const bookId = req.params.bookId;
-    const book = await Book.findByIdAndUpdate(bookId, { img: imageUrls }, { new: true });
-    if (!book) {
-      return res.status(404).json({ message: "Kitob topilmadi!" });
-    }
+      const fileLinks = req.files.map(
+        (file) => `${req.protocol}://${req.get("host")}/uploads/${file.filename}`
+      );
 
-    res.status(200).json({
-      message: "Rasmlar muvaffaqiyatli yuklandi!",
-      images: imageUrls,
+      const id = req.params.carId;
+      const car = await CarsModel.findByIdAndUpdate(id, { img: fileLinks }, { new: true });
+
+      if (!car) {
+        return res.status(404).json({ message: "Avtomobil topilmadi!" });
+      }
+
+      res.status(201).json({
+        message: "Rasmlar muvaffaqiyatli yuklandi",
+        images: fileLinks,
+      });
     });
   } catch (error) {
-    next(error)
+    next(error);
   }
 }
 
-module.exports = {
-  uploadBookImages,
-  upload
-}
+module.exports = fileUploader;
