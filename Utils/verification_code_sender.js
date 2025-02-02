@@ -58,7 +58,7 @@ async function sendVerificationEmail(username, email, randomCode) {
           ${randomCode}
         </div>
         <p style="font-size: 14px; color: #666; margin-top: 20px;">
-          Ushbu kod 1 daqiqa ichida amal qiladi. Kodni kiritishda muammo
+          Ushbu kod 2 daqiqa ichida amal qiladi. Kodni kiritishda muammo
           yuzaga kelsa, iltimos biz bilan bog'laning (${process.env.VERIFIER_EMAIL}).
         </p>
       </div>

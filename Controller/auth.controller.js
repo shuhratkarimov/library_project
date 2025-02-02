@@ -42,7 +42,7 @@ async function register(req, res, next) {
       password: encodedPassword,
       verification_code: randomCode,
       role: role,
-      timestamp: Date.now() + 1000 * 60,
+      timestamp: Date.now() + 2000 * 60,
     });
     await newUser.save();
     res.status(201).json({
@@ -60,7 +60,7 @@ async function verify(req, res, next) {
     logger.info(`${email} egasi emailini tasdiqlashga urindi!`);
     const foundUser = await UserModel.findOne({ email: email });
     if (!foundUser) {
-      return next(BaseError.BadRequest(404), "Bunday foydalanuvchi topilmadi!");
+      return next(BaseError.BadRequest(404, "Bunday foydalanuvchi topilmadi!"));
     }
     if (
       Date.now() <= foundUser.timestamp &&
@@ -78,9 +78,7 @@ async function verify(req, res, next) {
       logger.warn(
         `Emailni tasdiqlashdan o'tkazish bo'yicha server xatoligi yuz berdi!`
       );
-      return res.status(401).json({
-        message: "Kod tasdiqlanmadi!",
-      });
+      return next(BaseError.BadRequest(401, "Kod tasdiqlanmadi!"))
     }
   } catch (error) {
     logger.error(`${req.body.email} email egasi register qilishga urindi!`);
@@ -113,7 +111,7 @@ async function resendVerificationCode(req, res, next) {
     );
     await sendVerificationEmail(foundUser.username, email, randomCode);
     foundUser.verification_code = randomCode;
-    foundUser.timestamp = Date.now() + 1000 * 60;
+    foundUser.timestamp = Date.now() + 2000 * 60;
     await foundUser.save();
     res.status(200).json({
       message: `Yangi tasdiqlash kodi ${email} ga yuborildi.`,
@@ -143,7 +141,7 @@ async function forgotPassword(req, res, next) {
       Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join("")
     );
     await sendForgotPasswordEmail(foundUser.username, email, randomCode);
-    foundUser.timestamp = Date.now() + 1000 * 60;
+    foundUser.timestamp = Date.now() + 2000 * 60;
     foundUser.password_recover_code = randomCode;
     await foundUser.save();
     res.status(200).json({
@@ -211,7 +209,7 @@ async function resendRecoverForgotPasswordCode(req, res, next) {
       Array.from({ length: 7 }, () => Math.floor(Math.random() * 10)).join("")
     );
     foundUser.password_recover_code = randomCode;
-    foundUser.timestamp = Date.now() + 1000 * 60;
+    foundUser.timestamp = Date.now() + 2000 * 60;
     foundUser.attempts = 0; 
     foundUser.allowed_time = Date.now();
     await foundUser.save();

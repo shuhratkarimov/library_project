@@ -56,7 +56,7 @@ async function sendForgotPasswordEmail(username, email, randomCode) {
       ${randomCode}
     </div>
     <p style="font-size: 14px; color: #666; margin-top: 20px;">
-      Ushbu kod 1 daqiqa ichida amal qiladi. Agar kodni kiritishda muammo yuzaga kelsa, iltimos biz bilan bog'laning:
+      Ushbu kod 2 daqiqa ichida amal qiladi. Agar kodni kiritishda muammo yuzaga kelsa, iltimos biz bilan bog'laning:
       <a href="mailto:${process.env.VERIFIER_EMAIL}" style="color: #1071cc;">${process.env.VERIFIER_EMAIL}</a>.
     </p>
   </div>
