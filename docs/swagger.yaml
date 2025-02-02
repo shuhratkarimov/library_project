@@ -24,23 +24,19 @@ paths:
         - Authentication
       summary: Register a new user
       requestBody:
-          description: "User registration data"
-          required: true
+        description: "User registration data"
+        required: true
+        content:
+          application/json:
             schema:
-              type: object
-              properties:
-                username:
-                  type: string
-                  example: shuhrat
-                email:
-                  type: string
-                  example: shuhratkarimov.dev@gmail.com
-                password:
-                  type: string
-                  example: "11111"
+              $ref: "#/components/schemas/RegisterRequest"
       responses:
         '201':
           description: Registration successful
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RegisterResponse"
         '403':
           description: User already registered
         '500':
@@ -281,53 +277,6 @@ paths:
                     type: string
                   book:
                     $ref: '#/components/schemas/Book'
-  /upload_book_image/{bookId}:
-    post:
-      summary: Upload an image for a book
-      tags:
-        - Books
-      parameters:
-        - in: path
-          name: bookId
-          required: true
-          schema:
-            type: string
-          description: The ID of the book to upload an image for
-      requestBody:
-        required: true
-        content:
-          multipart/form-data:
-            schema:
-              type: object
-              properties:
-                picture:
-                  type: string
-                  format: binary
-              required:
-                - picture
-      security:
-        - bearerAuth: []
-      responses:
-        200:
-          description: Image uploaded successfully
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-                  img:
-                    type: object
-                    properties:
-                      fileName:
-                        type: string
-                      link:
-                        type: string
-        400:
-          description: Bad request
-        404:
-          description: Book not found
   /get_one_book/{id}:
     get:
       summary: Get book by ID
@@ -475,53 +424,6 @@ paths:
           description: Author added successfully
         400:
           description: Bad request
-  /upload_author_image/{authorId}:
-    post:
-      summary: Upload an image for a author
-      tags:
-        - Authors
-      parameters:
-        - in: path
-          name: authorId
-          required: true
-          schema:
-            type: string
-          description: The ID of the author to upload an image for
-      requestBody:
-        required: true
-        content:
-          multipart/form-data:
-            schema:
-              type: object
-              properties:
-                picture:
-                  type: string
-                  format: binary
-              required:
-                - picture
-      security:
-        - bearerAuth: []
-      responses:
-        200:
-          description: Image uploaded successfully
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  message:
-                    type: string
-                  img:
-                    type: object
-                    properties:
-                      fileName:
-                        type: string
-                      link:
-                        type: string
-        400:
-          description: Bad request
-        404:
-          description: Author not found          
   /search_authors:
     get:
       summary: Search authors by name
@@ -623,6 +525,43 @@ paths:
           description: Author deleted successfully
         404:
           description: Author not found
+  /upload/{modelType}/{id}:
+    post:
+      summary: Foydalanuvchi yoki kitob uchun rasm yuklash
+      description: Ushbu endpoint foydalanuvchi yoki kitob uchun rasm yuklash va ularning ma'lumotlar bazasidagi img maydonini yangilash uchun ishlatiladi.
+      parameters:
+        - name: modelType
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [book, author]
+          description: Model turi (book yoki author bo'lishi mumkin)
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: Modelning noyob identifikatori
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/UploadImageRequest"
+      responses:
+        '201':
+          description: Rasm muvaffaqiyatli yuklandi
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UploadImageResponse"
+        '400':
+          description: Xatolik yuz berdi (masalan, fayl yuklanmagan yoki noto‘g‘ri model turi kiritilgan)
+        '404':
+          description: Ko‘rsatilgan ID bo‘yicha ma'lumot topilmadi
+        '500':
+          description: Server xatosi
   /get_comments:
     get:
       summary: Get all comments
@@ -692,6 +631,27 @@ paths:
           description: Bad request
 components:
   schemas:
+    RegisterRequest:
+      type: object
+      properties:
+        username:
+          type: string
+          example: shuhrat
+        email:
+          type: string
+          example: shuhratkarimov.dev@gmail.com
+        password:
+          type: string
+          example: "11111"
+    RegisterResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "User registered successfully"
+        userId:
+          type: string
+          example: "64b5e5d9f0a4b5c9a7e1c2d3"
     Book:
       type: object
       properties:
@@ -770,6 +730,15 @@ components:
       required:
         - memberName
         - age
+    UploadImageResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "Rasm muvaffaqiyatli yuklandi"
+        image:
+          type: string
+          example: "http://localhost:5000/uploads/1706791234567.png"        
     Comment:
       type: object
       properties:
@@ -786,9 +755,18 @@ components:
         - member_info
         - book_info
         - comment
+    UploadImageRequest:
+      type: object
+      properties:
+        picture:
+          type: string
+          format: binary
+          description: Yuklanayotgan fayl (rasm)                
+  securitySchemes:
     bearerAuth:
       type: http
       scheme: bearer
       bearerFormat: JWT
+
 
 
