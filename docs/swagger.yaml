@@ -221,6 +221,34 @@ paths:
           description: Logout successful
         '500':
           description: Server error
+  /refresh:
+    post:
+      tags:
+        - Authentication
+      summary: Generate a new access token using the refresh token from cookies
+      requestBody:
+        required: false
+        content: {}
+      responses:
+        '200':
+          description: Successfully generated a new access token
+        '400':
+          description: Refresh token not found in cookies
+        '500':
+          description: Server error          
+  /delete_auth_DB_collection:
+    delete:
+      tags:
+        - Authentication
+      summary: Delete all authentication data from the database
+      requestBody:
+        required: false
+        content: {}
+      responses:
+        '200':
+          description: Authentication-related database collection cleared
+        '500':
+          description: Failed to clean DB collection          
   /get_books:
     get:
       summary: Get all books
@@ -276,7 +304,7 @@ paths:
                   message:
                     type: string
                   book:
-                    $ref: '#/components/schemas/Book'
+                    $ref: '#/components/schemas/Book'                
   /get_one_book/{id}:
     get:
       summary: Get book by ID

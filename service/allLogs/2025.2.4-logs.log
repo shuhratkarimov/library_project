@@ -1,0 +1,105 @@
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "//delete_auth_DB_collection",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 166\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-02-04 16:01:33'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/delete_auth_DB_collection",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 165\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-02-04 16:01:42'
+}
+{
+  message: '{\n' +
+    '    "method": "DELETE",\n' +
+    '    "url": "/delete_auth_DB_collection",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-02-04 16:02:15'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-02-04 16:02:23'
+}
+{
+  message: "shuhratkarimov.dev@gmail.com egasi ro'yxatdan o'tmasdan login qilishga urindi!",
+  level: 'warn',
+  timestamp: '2025-02-04 16:02:23'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "382ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "11111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "77",\n' +
+    '        "etag": "W/\\"4d-jljERrGd3CMHnGYqur2HyQx9sJw\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-02-04 16:02:23'
+}
+{
+  message: '{\n' +
+    '    "method": "DELETE",\n' +
+    '    "url": "/delete_auth_DB_collection",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "335ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "75",\n' +
+    '        "etag": "W/\\"4b-Kj6PqHipSPKY3K5/LwjEZnMLHvY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-02-04 16:02:58'
+}
