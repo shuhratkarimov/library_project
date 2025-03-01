@@ -297,14 +297,14 @@ async function login(req, res, next) {
         httpOnly: true,
         maxAge: 15 * 60 * 1000,
       });
-      res.cookie("refreshtoken", refreshtoken, {
-        httpOnly: true,
-        maxAge: 7 * 24 * 60 * 60 * 1000,
-      });
-      logger.info(`${foundUser.username} tizimga kirdi!`);
+      
+      // Refresh tokenni localStorage-ga yozish uchun frontendga jo'natish
       res.status(200).json({
         message: "Tizimga kirish muvaffaqiyatli amalga oshirildi!",
+        refreshtoken, // Frontendda localStorage-ga yoziladi
       });
+      
+      logger.info(`${foundUser.username} tizimga kirdi!`);
     } else {
       next(BaseError.BadRequest(401, "Sizning emailingiz tasdiqlanmagan!"));
     }
@@ -314,16 +314,22 @@ async function login(req, res, next) {
 }
 
 function logout(req, res, next) {
-  const decoded = jwt.verify(
-    req.cookies.refreshtoken,
-    process.env.REFRESH_SECRET_KEY
-  );
-  res.clearCookie("accesstoken");
-  res.clearCookie("refreshtoken");
-  logger.info(`${decoded.username} tizimdan chiqdi!`);
-  res.status(200).json({
-    message: "Tokenlar o'chirib tashlandi!",
-  });
+  try {
+    const refreshToken = req.body.refreshtoken; // Frontend refresh tokenni yuboradi
+    if (!refreshToken) {
+      return res.status(400).json({ message: "Refresh token topilmadi!" });
+    }
+
+    const decoded = jwt.verify(refreshToken, process.env.REFRESH_SECRET_KEY);
+    res.clearCookie("accesstoken");
+    
+    logger.info(`${decoded.username} tizimdan chiqdi!`);
+    res.status(200).json({
+      message: "Tokenlar o'chirib tashlandi!",
+    });
+  } catch (error) {
+    next(error);
+  }
 }
 
 module.exports = {

@@ -24,24 +24,28 @@ function verifyAccessToken(req, res, next) {
 
 function getNewAccessTokenUsingRefreshToken(req, res, next) {
   try {
-    const { refreshtoken } = req.cookies;
+    const { refreshtoken } = req.body; // Refresh token endi body orqali keladi
     if (!refreshtoken) {
       return next(BaseError.BadRequest(404, "Refresh token topilmadi!"));
     }
-    const decoded = jwt.verify(refreshtoken, process.env.REFRESH_SECRET_KEY)
+    
+    const decoded = jwt.verify(refreshtoken, process.env.REFRESH_SECRET_KEY);
     const payload = {
       username: decoded.username,
       email: decoded.email,
       role: decoded.role,
     };
+    
     const accesstoken = generateAccessToken(payload);
-      res.cookie("accesstoken", accesstoken, {
-        httpOnly: true,
-        maxAge: 15 * 60 * 1000,
-      });
-      res.status(200).json({
-        message: "Refresh token orqali yangi access token berildi!",
-      });
+    res.cookie("accesstoken", accesstoken, {
+      httpOnly: true,
+      maxAge: 15 * 60 * 1000,
+    });
+    
+    res.status(200).json({
+      message: "Refresh token orqali yangi access token berildi!",
+      accesstoken, // Frontendga access tokenni qaytarish
+    });
   } catch (error) {
     next(error);
   }
