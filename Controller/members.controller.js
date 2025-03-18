@@ -13,7 +13,7 @@ async function addMembers(req, res, next) {
     const newMember = await MembersModel.create(req.body);
     res.status(201).json({
       message: `${memberName}, siz kutubxonaga a'zo bo'ldingiz!`,
-    }, newMember);
+    newmember: newMember});
   } catch (error) {
     next(error);
   }
