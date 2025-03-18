@@ -10,10 +10,10 @@ async function addMembers(req, res, next) {
         BaseError.BadRequest(403, "Siz oldin a'zolar ro'yxatiga qo'shilgansiz!")
       );
     }
-    await MembersModel.create(req.body);
+    const newMember = await MembersModel.create(req.body);
     res.status(201).json({
       message: `${memberName}, siz kutubxonaga a'zo bo'ldingiz!`,
-    });
+    }, newMember);
   } catch (error) {
     next(error);
   }
